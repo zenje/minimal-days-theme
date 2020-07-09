@@ -1,1 +1,12 @@
-{{ content }}
+<!DOCTYPE html>
+<html>
+	{% if site.title %}
+	<title>{{site.title}}</title>
+	<h1>{{site.title}}</h1>
+	{% endif %}
+
+	{% include head.html %}
+	<body>
+		{{ content }}
+	</body>
+</html>

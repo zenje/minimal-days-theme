@@ -1,0 +1,18 @@
+---
+# Ensures Jekyll reads the file to be transformed into CSS later
+---
+
+@charset "utf-8";
+@import "variables";
+
+html {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #6B6D80;
+	font-family: $Serif;
+}
+
+h1 {
+	font-size: 32px;
+	font-family: $SansSerif;
+}
