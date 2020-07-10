@@ -17,9 +17,14 @@ body {
 	margin: 0 auto;
 }
 
-h1.post-title > a {
+h1.post-title {	
 	font-size: $fs-header;
 	font-family: $ff-header;
+	text-align: center;
+	margin-top: 0px;
+}
+
+h1.post-title > a {
 	color: $clr-accent;
 	text-decoration: none;
 }
@@ -46,7 +51,7 @@ a[x-apple-data-detectors] {
 }
 
 .post {
-	padding-bottom: 80px;
+	padding-bottom: 100px;
 }
 
 .post-date {
