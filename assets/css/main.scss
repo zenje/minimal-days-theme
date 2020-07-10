@@ -54,6 +54,15 @@ a[x-apple-data-detectors] {
 	text-align: center;
 }
 
+.pagination {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.pagination > a {
+	text-decoration: none;
+}
+
 hr {
 	border-top: 1px dashed $clr-base;
 	border-left: 0;
@@ -65,6 +74,11 @@ hr {
 
 figure {
 	text-align: center;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
 }
 
 figcaption {
