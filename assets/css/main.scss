@@ -6,9 +6,9 @@
 @import "variables";
 
 html {
-	font-size: 16px;
+	font-size: $fs-base;
 	line-height: 1.6;
-	color: #6B6D80;
+	color: $clr-base;
 	font-family: $ff-base;
 }
 
@@ -17,21 +17,57 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
-	font-size: 32px;
+h1.post-title > a {
+	font-size: $fs-header;
 	font-family: $ff-header;
-}
-
-.title {
-	letter-spacing: 2px;
-	text-align: center;
-}
-
-a {
-	color: inherit;
+	color: $clr-accent;
 	text-decoration: none;
 }
 
-.post {
+.title {
+	font-size: $fs-title;
+	letter-spacing: 2px;
+	text-align: center;
 	padding-bottom: 50px;
+}
+
+a {
+	color: $clr-accent;
+	letter-spacing: 2px;
+}
+
+a[x-apple-data-detectors] {
+	color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+}
+
+.post {
+	padding-bottom: 80px;
+}
+
+.post-date {
+	font-size: 14px;
+	text-align: center;
+}
+
+hr {
+	border-top: 1px dashed $clr-base;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	width: 20%;
+	margin-bottom: 24px;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-style: oblique;
+	font-size: 12px;
 }
