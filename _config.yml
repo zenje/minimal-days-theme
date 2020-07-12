@@ -7,6 +7,9 @@ plugins:
 paginate: 3
 paginate_path: "/page/:num/"
 
+sass:
+  sass_dir: _sass
+
 responsive_image:
   # [Required]
   # Path to the image template.

@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
-	{% if site.title %}
-	<title>{{site.title}}</title>
-	<h1 class="title"><a href="/">{{site.title}}</a></h1>
+	{% if page.title %}
+		{% assign title = page.title %}
+	{% else %}
+		{% assign title = site.title %}
+	{% endif %}
+
+	{% if title %}
+	<title>{{ title }}</title>
+	<h1 class="title"><a href="/">{{ site.title }}</a></h1>
 	{% endif %}
 
 	{% include head.html %}

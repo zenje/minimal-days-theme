@@ -1,0 +1,25 @@
+.post {
+	padding-bottom: 100px;
+}
+
+h1.post-title {	
+	font-size: $fs-header;
+	font-family: $ff-header;
+	text-align: center;
+	margin-top: 0px;
+}
+
+h1.post-title > a {
+	color: $clr-accent;
+	text-decoration: none;
+}
+
+.post-date {
+	font-size: 14px;
+	text-align: center;
+}
+
+.post-tags {
+	font-size: 12px;
+	text-align: center;
+}
