@@ -22,4 +22,8 @@
     font-size: $fs-small2;
     text-align: center;
   }
+
+  &--tag a {
+    text-decoration: none;
+  }
 }

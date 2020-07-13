@@ -1,16 +1,25 @@
+# General settings
 title: here & there
 title_img: "assets/images/theme/cloud.gif"
 
 plugins:
   - jekyll-paginate
   - jekyll-responsive-image
+  - jekyll/tagging
 
+# Paginate settings
 paginate: 3
 paginate_path: "/page/:num/"
 
+# Tag settings
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+
+# Sass settings
 sass:
   sass_dir: _sass
 
+# Responsive image settings
 responsive_image:
   # [Required]
   # Path to the image template.
