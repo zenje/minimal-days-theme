@@ -23,4 +23,4 @@ Hello世界！正在一边写第一篇博文，一边吃番石榴加一些辣椒
 
 \- 曾怡文
 
-{% include image.html img="hello-world-2020-07-05.gif" description="Hello from Dalat!" %}
+{% include image.html img="2020-07-05-hello-world.gif" description="Hello from Dalat!" %}
