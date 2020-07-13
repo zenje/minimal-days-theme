@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-	{% if page.title %}
-		{% assign title = page.title %}
-	{% else %}
-		{% assign title = site.title %}
-	{% endif %}
-	
-	{% include head.html title=title %}	
+  {% if page.title %}
+    {% assign title = page.title %}
+  {% else %}
+    {% assign title = site.title %}
+  {% endif %}
+  
+  {% include head.html title=title %} 
 
-	<body>
-		<header class="header">
-			<h1 class="header--title"><a href="/">{{ site.title }}</a></h1>
-			<div class="header--img">
-				<img src="{{ site.title_img | absolute_url }}">
-			</div>
-		</header>
-		{{ content }}
-	</body>
+  <body>
+    <header class="header">
+      <h1 class="header--title"><a href="/">{{ site.title }}</a></h1>
+      <div class="header--img">
+        <img src="{{ site.title_img | absolute_url }}">
+      </div>
+    </header>
+    {{ content }}
+  </body>
 </html>

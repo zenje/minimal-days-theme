@@ -1,52 +1,52 @@
 html {
-	font-size: $fs-base;
-	line-height: $flh-base;
-	color: $clr-base;
-	font-family: $ff-base;
+  font-size: $fs-base;
+  line-height: $flh-base;
+  color: $clr-base;
+  font-family: $ff-base;
 }
 
 body {
-	max-width: 35em;
-	margin: 0 auto;
-	padding: 3em 1em;
+  max-width: 35em;
+  margin: 0 auto;
+  padding: 3em 1em;
 }
 
 .header {
-	text-align: center;
-	margin-bottom: 10vh;
+  text-align: center;
+  margin-bottom: 10vh;
 
-	&--title {
-		font-size: $fs-title;
-		margin-bottom: 0;
+  &--title {
+    font-size: $fs-title;
+    margin-bottom: 0;
 
-		a {
-			letter-spacing: $fls-md;
-			text-decoration: none;
-		}
-	}
+    a {
+      letter-spacing: $fls-md;
+      text-decoration: none;
+    }
+  }
 
-	&--img {
-		width: 25%;
-		margin: 0 auto;
-	}
+  &--img {
+    width: 25%;
+    margin: 0 auto;
+  }
 }
 
 hr {
-	border-top: 1px dashed $clr-base;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 0;
-	width: 25%;
-	margin-bottom: 2em;
+  border-top: 1px dashed $clr-base;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  width: 25%;
+  margin-bottom: 2em;
 }
 
 a {
-	color: $clr-accent;
-	letter-spacing: $fls-sm;
+  color: $clr-accent;
+  letter-spacing: $fls-sm;
 }
 
 a[x-apple-data-detectors] {
-	color: inherit !important;
+  color: inherit !important;
         text-decoration: none !important;
         font-size: inherit !important;
         font-family: inherit !important;
