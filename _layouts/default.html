@@ -5,14 +5,16 @@
 	{% else %}
 		{% assign title = site.title %}
 	{% endif %}
+	
+	{% include head.html title=title %}	
 
-	{% if title %}
-	<title>{{ title }}</title>
-	<h1 class="title"><a href="/">{{ site.title }}</a></h1>
-	{% endif %}
-
-	{% include head.html %}
 	<body>
+		<header class="header">
+			<h1 class="header--title"><a href="/">{{ site.title }}</a></h1>
+			<div class="header--img">
+				<img src="{{ site.title_img | absolute_url }}">
+			</div>
+		</header>
 		{{ content }}
 	</body>
 </html>

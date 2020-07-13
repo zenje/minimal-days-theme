@@ -1,6 +1,6 @@
 html {
 	font-size: $fs-base;
-	line-height: 1.6;
+	line-height: $flh-base;
 	color: $clr-base;
 	font-family: $ff-base;
 }
@@ -10,11 +10,24 @@ body {
 	margin: 0 auto;
 }
 
-.title {
-	font-size: $fs-title;
-	letter-spacing: 2px;
+.header {
 	text-align: center;
-	padding-bottom: 50px;
+	margin-bottom: 10vh;
+
+	&--title {
+		font-size: $fs-title;
+		margin-bottom: 0;
+
+		a {
+			letter-spacing: $fls-md;
+			text-decoration: none;
+		}
+	}
+
+	&--img {
+		width: 25%;
+		margin: 0 auto;
+	}
 }
 
 hr {
@@ -22,13 +35,13 @@ hr {
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
-	width: 20%;
-	margin-bottom: 24px;
+	width: 25%;
+	margin-bottom: 2em;
 }
 
 a {
 	color: $clr-accent;
-	letter-spacing: 2px;
+	letter-spacing: $fls-sm;
 }
 
 a[x-apple-data-detectors] {

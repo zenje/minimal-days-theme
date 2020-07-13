@@ -1,4 +1,5 @@
 title: here & there
+title_img: "assets/cloud.gif"
 
 plugins:
   - jekyll-paginate
