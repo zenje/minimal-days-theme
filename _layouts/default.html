@@ -12,7 +12,11 @@
     <header class="header">
       <h1 class="header--title"><a href="/">{{ site.title }}</a></h1>
       <div class="header--img">
-        <a href="/about"><img src="{{ site.title_img | absolute_url }}"></a>
+        {% if site.title_img_link %}
+        <a href="{{ site.title_img_link }}"><img src="{{ site.title_img | absolute_url }}"></a>
+        {% else %}
+        <img src="{{ site.title_img | absolute_url }}">
+        {% endif %}
       </div>
     </header>
     {{ content }}

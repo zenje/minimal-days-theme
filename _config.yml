@@ -1,6 +1,7 @@
 # General settings
 title: here & there
 title_img: "assets/images/theme/cloud.gif"
+title_img_link: "/about"
 
 plugins:
   - jekyll-paginate
