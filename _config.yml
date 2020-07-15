@@ -8,7 +8,8 @@ plugins:
   - jekyll-responsive-image
   - jekyll/tagging
 
-# Paginate settings
+# Other settings
+code_css: "default"   # replace with highlight.js css style
 paginate: 3
 paginate_path: "/page/:num/"
 

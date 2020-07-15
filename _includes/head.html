@@ -7,6 +7,11 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,700;1,500&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/{{ site.code_css }}.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
   {% if title %}
   <title>{{ title }}</title>
   {% endif %}
