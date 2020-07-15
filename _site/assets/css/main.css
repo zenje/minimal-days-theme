@@ -1,0 +1,53 @@
+/* fonts */
+/* colors */
+html { font-size: 16px; line-height: 1.5; color: #6B6D80; font-family: "Roboto Mono", monospace; }
+
+body { max-width: 35em; margin: 0 auto; padding: 3em 1em; }
+
+.header { text-align: center; margin-bottom: 10vh; }
+
+.header--title { font-size: 1.5rem; margin-bottom: 0; }
+
+.header--title a { letter-spacing: 4px; text-decoration: none; }
+
+.header--img { width: 25%; margin: 0 auto; }
+
+hr { border-top: 1px dashed #6B6D80; border-left: 0; border-right: 0; border-bottom: 0; width: 25%; margin-bottom: 2em; }
+
+a { color: #3E3F4A; letter-spacing: 2px; }
+
+a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+
+figure.highlight { margin: 0; }
+
+table { width: 100%; margin: 2em 0; }
+
+tr { text-align: left; }
+
+.pagination { text-align: center; }
+
+.pagination a { text-decoration: none; }
+
+figure.image { text-align: center; margin: 0; }
+
+img { max-width: 100%; }
+
+figcaption { font-style: oblique; font-size: 0.8rem; }
+
+.page--title { font-size: 2rem; font-family: "Roboto Slab", serif; color: #3E3F4A; text-align: center; }
+
+.post { margin-bottom: 25vh; }
+
+.post h1.post--title { font-size: 2rem; font-family: "Roboto Slab", serif; text-align: center; margin-top: 0; }
+
+.post h1.post--title a { color: #3E3F4A; text-decoration: none; }
+
+.post--date { font-size: 0.9rem; text-align: center; }
+
+.post--tags { font-size: 0.8rem; text-align: center; }
+
+.post--tag a { text-decoration: none; }
+
+#tag-cloud { text-align: center; margin-top: 2em; }
+
+/*# sourceMappingURL=main.css.map */
