@@ -1,10 +1,6 @@
 # minimal-days-theme
 
-A minimalistic static [Jekyll](http://jekyllrb.com) blog theme! Displays full posts in single-column list.
-
-Includes:
-* pagination
-* tags
+A minimalistic static [Jekyll](http://jekyllrb.com) blog theme! Displays full posts in single-column list. [**Demo**](https://zenje.github.io/minimal-days-theme/)
 
 ![Preview](/minimal-theme-screenshot.png)
 
@@ -32,6 +28,7 @@ Or install it yourself as:
 
 ## Usage
 ### _config.yml options
+
 General settings:
 ```
 title: here & there                         # update title
@@ -44,16 +41,12 @@ paginate: 3                                 # change posts per page
 ```
 
 ### Images in posts
-To insert a responsive image in a post:
-```
-{% responsive_image path:"assets/image/image.png" alt:"nice image bro" %}
-```
-When Jekyll builds the site, [jekyll-responsive-image](https://github.com/wildlyinaccurate/jekyll-responsive-image) will resize your images and load / display them in a responsive manner.
 
-To insert an image / gif that should NOT be resized:
+To insert an image with caption:
 ```
-{% include image.html img="image.gif" description="check this out" %}
+{% include image.html img="image.gif" description="nice image bro" %}
 ```
+Will generate an image in a `<figure>` with `<figurecaption>` block.
 
 ## License
 
