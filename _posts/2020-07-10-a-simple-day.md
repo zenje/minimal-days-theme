@@ -3,8 +3,10 @@ layout: post
 title: a simple day
 tags: test image
 ---
-
-{% responsive_image path:"assets/images/2020-07-05-dalat1.JPG" alt:"a good day" %}
+<figure class="image">
+  <img src="/assets/images/2020-07-05-dalat1-1400.JPG">
+  <figcaption>a good day <3</figcaption>
+</figure>
 
 Mea an wisi labore dissentiet. *Id usu volumus omittantur, eam eu vitae probatus contentiones, elitr eleifend vix ne.* Ea autem mundi quodsi ius, ex ius molestie intellegat. Vis vocibus argumentum cu. Justo persius dignissim ut ius, quo ad erat everti constituam. Dolores pertinax te quo, ea est exerci principes evertitur.
 

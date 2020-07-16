@@ -4,5 +4,5 @@ source "https://rubygems.org"
 gemspec
 
 gem 'jekyll-paginate'
-gem 'jekyll-responsive-image'
-gem 'jekyll-tagging'
+#gem 'jekyll-responsive-image'
+#gem 'jekyll-tagging'
