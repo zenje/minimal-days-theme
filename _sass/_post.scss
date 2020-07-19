@@ -26,4 +26,15 @@
   &--tag a {
     text-decoration: none;
   }
+
+  &--read-more {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    
+    a {
+      letter-spacing: 0;
+      text-decoration: none;
+    }
+  }
 }

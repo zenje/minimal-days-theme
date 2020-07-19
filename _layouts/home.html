@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-    {% include post-block.html %}
+    {% include post-block.html show_excerpt=site.show_excerpt %}
   {% endfor %}
 </div>
 

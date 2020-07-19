@@ -12,6 +12,8 @@ plugins:
 code_css: "default"   # replace with highlight.js css style
 paginate: 3
 paginate_path: "/page/:num/"
+show_excerpt: true
+excerpt_separator: <!--more-->
 
 # Tag settings
 tag_page_dir:         tag

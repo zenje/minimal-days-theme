@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Minimal Days
+show_excerpt: false
 tag: intro
 ---
 
